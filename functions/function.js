@@ -17,19 +17,19 @@
 // sum(2, 4);
 // sum(100, 200);
 // sum(1000, 2000);
-divide(50, 5);
-function sum(a, b) {
-    console.log(`Sum is ${a + b}`);
-}
-function subtract(a, b) {
-    console.log(`Subtract is ${a - b}`);
-}
-function multiply(a, b) {
-    console.log(`Multiply is ${a * b}`);
-}
-function divide(a, b) {
-    console.log(`Divide is ${a / b}`);
-}
+// divide(50, 5);
+// function sum(a: number, b: number) {
+//   console.log(`Sum is ${a + b}`);
+// }
+// function subtract(a: number, b: number) {
+//   console.log(`Subtract is ${a - b}`);
+// }
+// function multiply(a: number, b: number) {
+//   console.log(`Multiply is ${a * b}`);
+// }
+// function divide(a: number, b: number) {
+//   console.log(`Divide is ${a / b}`);
+// }
 // sum(10, 5);
 // subtract(10, 5);
 // multiply(10, 5);
@@ -39,7 +39,15 @@ function divide(a, b) {
 // multiply(100, 20);
 // divide(100, 20);
 //anonymous => Arrow Fuction
-let result = (a, b) => {
-    console.log(`Sum is ${a + b}`);
+// let result = (a: number, b: number) => {
+//   console.log(`Sum is ${a + b}`);
+// };
+// result(200, 300);
+// result(100, 200);
+let t = (table) => {
+    for (let i = 1; i <= 10; i++) {
+        console.log(`${table} * ${i} = ${table * i}`);
+    }
 };
-result(100, 200);
+t(6);
+t(20);
