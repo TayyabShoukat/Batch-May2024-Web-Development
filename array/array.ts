@@ -78,14 +78,53 @@
 // let result = names.filter((items) => items == "Lhr");
 // console.log(result);
 
-let arr1: number[] = [0, 0, 0, 1, 1, 2, 3, 4, 5, 6, 10, 100, 2000];
-let result1 = arr1.filter((items) => items == 0);
-console.log(result1);
+// let arr1: number[] = [0, 0, 0, 1, 1, 2, 3, 4, 5, 6, 10, 100, 2000];
+// let result1 = arr1.filter((items) => items == 0);
+// console.log(result1);
 
-let arr: number[] = [0, 0, 0, 1, 1, 2, 3, 4, 5, 6, 10, 100, 2000];
-let result = arr.map((items) => items * 2);
-console.log(result);
+// let arr: number[] = [0, 0, 0, 1, 1, 2, 3, 4, 5, 6, 10, 100, 2000];
+// let result = arr.map((items) => items * 2);
+// console.log(result);
 
-let names: string[] = ["ali", "qasim", "zain", "usama"];
-let result2 = names.filter((items) => items == "ali" || items == "qasim");
-console.log(result2);
+// let names: string[] = ["ali", "qasim", "zain", "usama"];
+// let result2 = names.filter((items) => items == "ali" || items == "qasim");
+// console.log(result2);
+
+// 1=> push() => add value in array (from last index / from right side)
+// let arrPush: number[] = [2, 4, 6, 8];
+// console.log(`Old array ${arrPush}`);
+// arrPush.push(10);
+// console.log(`New array after insert value ${arrPush}`);
+
+// 2=> pop() => Delete index from right side
+// let arrPop: number[] = [2, 4, 6, 8];
+// let result: any = arrPop.pop();
+// console.log(`Resdults ${result}`);
+
+// 3. shift() => Delete Chratcter from left side
+// let arrPop: number[] = [2, 4, 6, 8];
+// let result: any = arrPop.shift();
+// console.log(`${result}`);
+// console.log(`${arrPop}`);
+
+// 4. unshift() => Insert Character from let side
+let arr: number[] = [2, 4, 6, 8];
+arr.unshift(1);
+console.log(`${arr}`);
+
+//5 concat() => Combine
+// 6 sort() => Arrange data
+// let arr1: number[] = [1, 2];
+// let arr2: number[] = [4, 3];
+// let mergedArray = arr1.concat(arr2).sort(); //[1,2,3,4]
+// console.log(mergedArray);
+
+// 7 slice(Starting,Range) => To Extract data
+// Indexes=>    //   0  1  2 3   4
+// let arr: number[] = [2, 6, 4, 8, 10];
+// let result = arr.slice(1, 4);
+// console.log(result);
+// let result2 = arr.reverse; //[10,8,4,6,2]
+
+// 8 Reverse() => Reverse of array
+// console.log(`${arr.reverse()}`);
