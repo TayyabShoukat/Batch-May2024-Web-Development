@@ -108,9 +108,9 @@
 // console.log(`${arrPop}`);
 
 // 4. unshift() => Insert Character from let side
-let arr: number[] = [2, 4, 6, 8];
-arr.unshift(1);
-console.log(`${arr}`);
+// let arr: number[] = [2, 4, 6, 8];
+// arr.unshift(1);
+// console.log(`${arr}`);
 
 //5 concat() => Combine
 // 6 sort() => Arrange data
@@ -128,3 +128,69 @@ console.log(`${arr}`);
 
 // 8 Reverse() => Reverse of array
 // console.log(`${arr.reverse()}`);
+
+// 1
+// let arr: number[] = [2, 4, 7, 9, 0, 1];
+// let result = arr.sort();
+// console.log(result);
+
+// 2
+// let arr: number[] = [2, 4, 7, 9, 0, 1];
+// arr.push(20);
+// console.log(arr);
+
+// 3
+// let arr: number[] = [2, 4, 7, 9, 0, 1];
+// arr.pop();
+// console.log(arr);
+
+// 4
+// let arr: number[] = [2, 4, 7, 9, 0, 1];
+// arr.unshift(20);
+// console.log(arr);
+
+// 5
+// let arr: number[] = [2, 4, 7, 9, 0, 1];
+// arr.shift();
+// console.log(arr);
+
+// 6
+// let arr1: number[] = [2, 4, 6];
+// let arr2: number[] = [1, 3, 5];
+// let mergedArray: number[] = arr1.concat(arr2).sort();
+// console.log(mergedArray);
+
+// 7 slice(Starting,Range) => To Extract data
+// Indexes=>    //   0  1  2  3   4
+// let arr: number[] = [2, 6, 4, 8, 10];
+// let result = arr.slice(1, 4);
+// console.log(result);
+
+// 8 Reverse
+// let arr: number[] = [1, 100, 0, 2, 3, 99];
+// let result: number[] = arr.reverse();
+// console.log(result);
+
+// 9 map() => Advance loop
+// let arr: number[] = [2, 4, 6];
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i] * 2);
+// }
+
+// let arr: number[] = [2, 4, 6];
+// let result: number[] = arr.map((item) => item * 2);
+// console.log(result);
+
+// 10 => filter
+// let arr: number[] = [2, 4, 6, 5, 7, 9];
+// let result: number[] = arr.filter((item) => item % 2 == 0);
+// console.log(result);
+
+// 11 => splice() method
+// let arr: number[] = [1, 2, 3, 4, 5];
+// arr.splice(2, 2);
+// console.log(arr);
+
+let arr: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+arr.splice(2);
+console.log(arr);
