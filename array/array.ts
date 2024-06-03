@@ -191,6 +191,61 @@
 // arr.splice(2, 2);
 // console.log(arr);
 
-let arr: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-arr.splice(2);
-console.log(arr);
+// let arr: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// arr.splice(2);
+// console.log(arr);
+
+// let arr: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// arr.splice(2,0,10);
+// console.log(arr);
+
+// let arr: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// arr.splice(2,2);
+// console.log(arr);
+
+// let arr: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// arr.splice(2,3,100);
+// console.log(arr);
+
+// splice() method add or delte value from any index of array.
+
+// let arr: number[] = [1, 2, 3, 4, 5];
+// arr.splice(2, 3);
+// console.log(arr);
+
+// let arr: number[] = [1, 2, 3, 4, 5];
+// arr.splice(2, 2);
+// console.log(arr);
+
+// let arr: number[] = [1, 2, 3, 4, 5];
+// arr.splice(2, 0, 100);
+// console.log(arr);
+
+// let arr: number[] = [1, 2, 3, 4, 5];
+// arr.splice(1, 2, 100);
+// console.log(arr);
+
+// let arr: number[] = [1, 2, 3, 4, 5];
+// arr.splice(1, 2, 100, 200);
+// console.log(arr);
+
+// let arr: number[] = [1, 2, 3, 4, 5];
+// arr.splice(1);
+// console.log(arr);
+
+//13 join() method => Number Conert it into string
+
+// let arr: number[] = [1, 2, 3, 4];
+// console.log(arr.join("$"));
+
+//14 indexof() method
+// let arr: number[] = [2, 4, 6, 8, 9];
+// console.log(arr.indexOf(6));
+
+//15 includes() method
+// let arr: number[] = [2, 4, 6, 8, 9];
+// console.log(arr.includes(100));
+
+//16 foreach loop
+// let arr: number[] = [2, 4, 6, 8, 9];
+// arr.forEach((item) => console.log(item * 2));
