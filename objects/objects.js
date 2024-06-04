@@ -1,19 +1,19 @@
 "use strict";
-// let studentObject = {
-//   name: "ali",
+// let studentObj = {
+//   name: "ali", // Property/Key : Value
 //   age: 30,
 //   city: "Fsd",
 // };
-// // console.log(studentObject);
-// console.log(studentObject.name);
-// console.log(studentObject.age);
-// console.log(studentObject.city);
-let colors = {
-    color1: "red",
-    color2: "blue",
-    color3: "green",
-    color4: "Yellow",
-    quantity: 4,
+let backAccountObj = {
+    accountNumber: 4100000000000,
+    accountHolderName: "Ali",
+    amount: 100000,
+    address: {
+        add1: "Fsd",
+        add2: "Lhr",
+    },
+    activeStatus: true,
 };
-console.log(colors.color3);
-console.log(colors.quantity);
+console.log(backAccountObj.accountHolderName);
+console.log(backAccountObj.amount);
+console.log(backAccountObj.address.add1);
