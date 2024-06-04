@@ -4,16 +4,18 @@
 //   age: 30,
 //   city: "Fsd",
 // };
-let backAccountObj = {
-    accountNumber: 4100000000000,
-    accountHolderName: "Ali",
-    amount: 100000,
-    address: {
-        add1: "Fsd",
-        add2: "Lhr",
+let product = {
+    productName: "Cola Next",
+    productQuantity: 200,
+    Company: "Cola",
+    expiryDate: "12-12-2024",
+    countryCode: "+92",
+    contactNumber: {
+        contact1: 122,
+        contact2: 123,
+        contact3: 124,
     },
-    activeStatus: true,
 };
-console.log(backAccountObj.accountHolderName);
-console.log(backAccountObj.amount);
-console.log(backAccountObj.address.add1);
+console.log(product.productName);
+console.log(product.expiryDate);
+console.log(product.contactNumber.contact2);
