@@ -4,18 +4,12 @@
 //   age: 30,
 //   city: "Fsd",
 // };
-let product = {
-    productName: "Cola Next",
-    productQuantity: 200,
-    Company: "Cola",
-    expiryDate: "12-12-2024",
-    countryCode: "+92",
-    contactNumber: {
-        contact1: 122,
-        contact2: 123,
-        contact3: 124,
-    },
+let intersectionObj = {
+    rollNumber: 1,
+    studentName: "Ali",
+    fatherName: "Ramzan",
+    id: 10,
+    teacherName: "Salman",
+    studentFatherName: "qasim",
 };
-console.log(product.productName);
-console.log(product.expiryDate);
-console.log(product.contactNumber.contact2);
+console.log(intersectionObj.fatherName);

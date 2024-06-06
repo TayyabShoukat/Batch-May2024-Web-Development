@@ -121,32 +121,99 @@
 // console.log(backAccountObj.amount);
 // console.log(backAccountObj.address.add1);
 
-interface Product {
-  productName: string;
-  productQuantity: number;
-  Company: string;
-  expiryDate: string;
-  countryCode: number | string;
-  contactNumber: {
-    contact1: number;
-    contact2: number;
-    contact3: number;
-  };
+// interface Product {
+//   productName: string;
+//   productQuantity: number;
+//   Company: string;
+//   expiryDate: string;
+//   countryCode: number | string;
+//   contactNumber: {
+//     contact1: number;
+//     contact2: number;
+//     contact3: number;
+//   };
+// }
+
+// let product: Product = {
+//   productName: "Cola Next",
+//   productQuantity: 200,
+//   Company: "Cola",
+//   expiryDate: "12-12-2024",
+//   countryCode: "+92",
+//   contactNumber: {
+//     contact1: 122,
+//     contact2: 123,
+//     contact3: 124,
+//   },
+// };
+
+// console.log(product.productName);
+// console.log(product.expiryDate);
+// console.log(product.contactNumber.contact2);
+
+// Optional Properties
+// interface Student {
+//   rollnumber: number;
+//   name: string;
+//   fathername: string;
+//   hobby?: string;
+//   CNIC?: string;
+// }
+
+// let student: Student = {
+//   rollnumber: 1,
+//   name: "Qasim",
+//   fathername: "Ali",
+// };
+
+// console.log(student.name);
+// console.log(student["name"]);
+
+// Intersections => We will combine two interfaces
+// interface Category {
+//   category_Id: number;
+//   categoryName: string;
+// }
+
+// interface Products {
+//   Product_Id: number;
+//   productName: string;
+//   productExpiryDate?: string;
+//   price: number;
+// }
+
+// type intersection = Category & Products;
+
+// let productObj: intersection = {
+//   category_Id: 1,
+//   categoryName: "Clothes",
+//   Product_Id: 1,
+//   productName: "Shirt",
+//   price: 5000,
+// };
+
+interface student {
+  rollNumber: number;
+  studentName: string;
+  studentFatherName: string;
 }
 
-let product: Product = {
-  productName: "Cola Next",
-  productQuantity: 200,
-  Company: "Cola",
-  expiryDate: "12-12-2024",
-  countryCode: "+92",
-  contactNumber: {
-    contact1: 122,
-    contact2: 123,
-    contact3: 124,
-  },
+interface teacher {
+  id: number | string;
+  teacherName: string;
+  fatherName: string;
+  contactNumber?: number;
+}
+
+type Intersection = student & teacher;
+
+let intersectionObj: Intersection = {
+  rollNumber: 1,
+  studentName: "Ali",
+  fatherName: "Ramzan",
+  id: 10,
+  teacherName: "Salman",
+  studentFatherName: "qasim",
 };
 
-console.log(product.productName);
-console.log(product.expiryDate);
-console.log(product.contactNumber.contact2);
+console.log(intersectionObj.fatherName);
