@@ -199,9 +199,9 @@ interface student {
 }
 
 interface teacher {
-  id: number | string;
+  teacherId: number | string;
   teacherName: string;
-  fatherName: string;
+  teacherFatherName: string;
   contactNumber?: number;
 }
 
@@ -210,10 +210,10 @@ type Intersection = student & teacher;
 let intersectionObj: Intersection = {
   rollNumber: 1,
   studentName: "Ali",
-  fatherName: "Ramzan",
-  id: 10,
+  teacherFatherName: "Ramzan",
+  teacherId: 10,
   teacherName: "Salman",
   studentFatherName: "qasim",
 };
 
-console.log(intersectionObj.fatherName);
+console.log(intersectionObj.teacherFatherName);
