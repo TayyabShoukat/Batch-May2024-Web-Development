@@ -216,4 +216,4 @@ let intersectionObj: Intersection = {
   studentFatherName: "qasim",
 };
 
-console.log(intersectionObj.teacherFatherName);
+console.log(intersectionObj["teacherFatherName"]);
