@@ -21,6 +21,28 @@
 // ourTuple = ["Coding", 5, false];
 // console.log(ourTuple);
 
-let studentTuple: [number, string, string, number, string];
-studentTuple = [1, "Ali", "Ramzan", 12, "Fsd"];
-console.log(studentTuple);
+// let studentTuple: [number, string, string, number, string];
+// studentTuple = [1, "Ali", "Ramzan", 12, "Fsd"];
+// console.log(studentTuple);
+
+// let studentTuple: [number, string, string, number, string];
+// studentTuple = [1, "Ali", "Ramzan", 12, "Fsd", 5];
+// console.log(studentTuple);
+
+// let ourTuple: [number, boolean, string];
+// ourTuple = [5, false, "Coding God was here"];
+// ourTuple.push(4);
+// console.log(ourTuple);
+
+// let ourTuple:readonly [number, boolean, string];
+// ourTuple = [5, false, "Coding God was here"];
+// ourTuple.push(4);
+// console.log(ourTuple);
+
+// let graph: [number, number] = [55.2, 41.3];
+// let [x, y] = graph;
+// console.log(x); // 55.2
+// console.log(y); // 41.3
+
+// console.log(graph[0]);
+// console.log(graph[1]);
