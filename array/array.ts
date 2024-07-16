@@ -247,5 +247,9 @@
 // console.log(arr.includes(100));
 
 //16 foreach loop
-// let arr: number[] = [2, 4, 6, 8, 9];
-// arr.forEach((item) => console.log(item * 2));
+let arr: number[] = [2, 4, 6, 8, 9];
+arr.forEach((item) => console.log(item * 2));
+let arr: number[] = [2, 4, 6, 8, 9];
+arr.forEach((item) => console.log(item * 2));
+let arr: number[] = [2, 4, 6, 8, 9];
+arr.forEach((item) => console.log(item * 2));
