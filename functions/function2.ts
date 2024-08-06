@@ -1,0 +1,10 @@
+import sum from "./function";
+import { sub } from "./function";
+import { mul } from "./function";
+import divsion from "./function";
+import { fun } from "./function";
+// sum();
+sub();
+mul();
+divsion();
+fun();

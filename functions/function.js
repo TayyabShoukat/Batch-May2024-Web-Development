@@ -4,6 +4,8 @@
 //   console.log("Hello World");
 //   console.log("Faisalabad");
 // }
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.fun = exports.mul = exports.sub = void 0;
 // show(); //Function Call => To use function
 // show();
 // show();
@@ -44,10 +46,29 @@
 // };
 // result(200, 300);
 // result(100, 200);
-let t = (table) => {
-    for (let i = 1; i <= 10; i++) {
-        console.log(`${table} * ${i} = ${table * i}`);
-    }
+// let t = (table: number) => {
+//   for (let i = 1; i <= 10; i++) {
+//     console.log(`${table} * ${i} = ${table * i}`);
+//   }
+// };
+// t(6);
+// t(20);
+// export default function Sum() {
+//   console.log("hello Export Default");
+// }
+function sub() {
+    console.log("Hello Sub");
+}
+exports.sub = sub;
+function mul() {
+    console.log("Hello Mul");
+}
+exports.mul = mul;
+const fun = () => {
+    console.log("hello");
 };
-t(6);
-t(20);
+exports.fun = fun;
+const divsion = () => {
+    console.log("divide");
+};
+exports.default = divsion;
